@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Client Side Registration</title>
+    <link rel="stylesheet" href="ass3.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Registration Form</h2>
+
+    <form id="registrationForm">
+        <input type="text" id="name" placeholder="Full Name">
+        <small class="error" id="nameError"></small>
+
+        <input type="email" id="email" placeholder="Email">
+        <small class="error" id="emailError"></small>
+
+        <input type="password" id="password" placeholder="Password">
+        <small class="error" id="passwordError"></small>
+
+        <input type="text" id="mobile" placeholder="Mobile Number">
+        <small class="error" id="mobileError"></small>
+
+        <textarea id="address" placeholder="Address"></textarea>
+        <small class="error" id="addressError"></small>
+
+        <input type="text" id="city" placeholder="City">
+        <small class="error" id="cityError"></small>
+
+        <input type="text" id="pincode" placeholder="Pincode">
+        <small class="error" id="pincodeError"></small>
+
+        <input type="text" id="country" placeholder="Country">
+        <small class="error" id="countryError"></small>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <p id="successMessage"></p>
+</div>
+
+<script src="ass3.js"></script>
+</body>
+</html>
